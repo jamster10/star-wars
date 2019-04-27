@@ -1,0 +1,50 @@
+form{
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+input{
+  margin-top: 8px;
+  border: 1px solid yellow;
+  background-color: none;
+  padding: 10px 15px;
+}
+
+input[type=text]{
+  font-size: 15px;
+}
+
+.left{
+  margin-top: 20px;
+}
+
+input[type=submit]{
+  background-color: transparent;
+  border: 1px solid yellow;
+  color: white;
+  margin-top: 55px;
+  box-shadow: 1px 1px grey;
+}
+
+input[type=submit]:disabled{
+  color:grey;
+}
+
+input[type=submit]:disabled:hover{
+  color:grey;
+}
+
+
+
+input[type=submit]:hover{
+  color: yellow
+}
+
+input[type=submit]:active{
+box-shadow: none;
+}
+
+.prevSearches{
+  margin-left: 240px;
+}
